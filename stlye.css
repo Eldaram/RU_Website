@@ -2,6 +2,7 @@
 
 body{
 	/*background-image: url(background.jpg); Il faut ici avoir une image pour le background à mettre*/
+	/*font-family: A AJOUTER */
 	background-repeat: no-repeat; /* à ajuster en fonction du back */
 	height: 100%;
 	background-attachment: fixed;
@@ -11,5 +12,5 @@ body{
 /* Faire ici le style de tous les "articles" du sites 
 		Il s'agit ici de on va dire les grandes textes du site */
 article{
-	/* TODO !!! */
+	background-color: rgba(71, 56, 89, 0.75);
 }
