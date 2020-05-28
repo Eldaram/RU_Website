@@ -1,5 +1,14 @@
-/* Le corps de toutes les pages du site */
+/* TOUTES LES POLICES D'ECRITURES DU SITE WEB */
+	/* Spectrashell utilisé pour le titre du site */
+@font-face {
+    font-family: 'spectrashell';
+    src: url('police/spectrashell/spectrashell-webfont.woff2') format('woff2'),
+         url('police/spectrashell/spectrashell-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
+/* Le corps de toutes les pages du site */
 body{
 	background-image: url(images/planetdice.png);
 	/*font-family: A AJOUTER */
@@ -11,7 +20,46 @@ body{
 }
 
 /* Faire ici le style de tous les "articles" du sites 
-		Il s'agit ici de on va dire les grandes textes du site */
+		Il s'agit ici de on va dire les grandes sections du site */
 article{
 	background-color: rgba(71, 56, 89, 0.75); /* une sorte de violet transparant */
+}
+
+/* TOUTES LA MISE EN PAGE POUR LA NAVIGATION */
+/* Entre autre la mise en page de la nav */
+header{
+	display: flex;
+	justify-content: center;
+}
+
+/* Titre pour la navigation du site web */
+h1{
+	margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+/* Permet de faire la mise en forme  */
+#title{
+	font-size: 35px;
+    color: #7185D0;
+    background-color: #34333E;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-family: spectrashell;
+}
+
+#linkToMenu{
+	color: #CEA5A9;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+/* Mise en page du logo présent sur nav.php */
+#logo{
+	height: 80px;
+    position: relative;
+    top: 18px;
+    margin-right: 15px;
 }
