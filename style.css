@@ -25,7 +25,8 @@ article{
 	background-color: rgba(71, 56, 89, 0.75); /* une sorte de violet transparant */
 }
 
-/* TOUTES LA MISE EN PAGE POUR LA NAVIGATION */
+/* TOUTES LA MISE EN PAGE POUR LA NAVIGATION, tout ce qui suit fait référence à la page "nav.php" */
+	/* Toutes les options de mises en pages suivantes sont là pour le titre des pages */
 /* Entre autre la mise en page de la nav */
 header{
 	display: flex;
@@ -40,7 +41,7 @@ h1{
 
 /* Permet de faire la mise en forme  */
 #title{
-	font-size: 35px;
+	font-size: 65px;
     color: #7185D0;
     background-color: #34333E;
     text-align: center;
@@ -54,6 +55,7 @@ h1{
 	color: #CEA5A9;
     font-size: 20px;
     margin-left: 15px;
+    text-decoration: none; /* Pour désactiver le sous-lignage du texte */
 }
 
 /* Mise en page du logo présent sur nav.php */

@@ -1,6 +1,6 @@
 <a href="index.php" id="linkToMenu"><header><span id="title">
 	<img src="images/logo-serv.gif" id="logo" />
-	Roliste Universe
+	ROLISTE UNIVERSE
 </span></header></a>
 <nav>
 	<div>Le serveur</div>
