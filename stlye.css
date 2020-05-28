@@ -1,16 +1,17 @@
 /* Le corps de toutes les pages du site */
 
 body{
-	/*background-image: url(background.jpg); Il faut ici avoir une image pour le background à mettre*/
+	background-image: url(images/planetdice.png);
 	/*font-family: A AJOUTER */
 	background-repeat: no-repeat; /* à ajuster en fonction du back */
 	height: 100%;
 	background-attachment: fixed;
-	color: red;
+	background-size : cover;
+	background-color: #3e365d;
 }
 
 /* Faire ici le style de tous les "articles" du sites 
 		Il s'agit ici de on va dire les grandes textes du site */
 article{
-	background-color: rgba(71, 56, 89, 0.75);
+	background-color: rgba(71, 56, 89, 0.75); /* une sorte de violet transparant */
 }
