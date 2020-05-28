@@ -19,6 +19,11 @@ body{
 	background-color: #3e365d;
 }
 
+/* Pour désactiver le sous-lignage du texte des liens */
+a{
+	text-decoration: none;
+}
+
 /* Faire ici le style de tous les "articles" du sites 
 		Il s'agit ici de on va dire les grandes sections du site */
 article{
@@ -26,7 +31,7 @@ article{
 }
 
 /* TOUTES LA MISE EN PAGE POUR LA NAVIGATION, tout ce qui suit fait référence à la page "nav.php" */
-	/* Toutes les options de mises en pages suivantes sont là pour le titre des pages */
+	/* Toutes les options de mises en pages suivantes sont là pour le titre central des pages */
 /* Entre autre la mise en page de la nav */
 header{
 	display: flex;
@@ -51,11 +56,11 @@ h1{
     font-family: spectrashell;
 }
 
+/* Définition juste pour permetre de faire le lien pour reconduire sur la page central */
 #linkToMenu{
 	color: #CEA5A9;
     font-size: 20px;
     margin-left: 15px;
-    text-decoration: none; /* Pour désactiver le sous-lignage du texte */
 }
 
 /* Mise en page du logo présent sur nav.php */
@@ -65,3 +70,4 @@ h1{
     top: 18px;
     margin-right: 15px;
 }
+	/* Toutes les définitions purement de la navigation */
