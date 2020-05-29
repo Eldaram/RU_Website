@@ -6,6 +6,7 @@
 	<!-- 
 	class:nav 		- Sert a gerrer le style de chaques cellules
 	class:underNav	- Sert à donner le style des sous cellules
+	id:totalNav		- Id de gestion pour JS
 	id:bigClass0 	- Id de gestion pour JS
 	id:bigClass1 	- Id de gestion pour JS
 	id:bigClass2 	- Id de gestion pour JS
@@ -22,14 +23,14 @@
 	</span>
 	<span class="nav" id="navJdr">
 		<a id="bigClass1" href="presentation.php">JDR et RP</a>
-		<div id="underJdr" style="height: 0px;"> <!-- Le style est fait pour être compatible avec JS -->
+		<div id="underJdr" class="underNav" style="height: 0px;"> <!-- Le style est fait pour être compatible avec JS -->
 			<a href="presentation.php#generale">En général</a><br>
 			<a href="presentation.php#serveur">Le serveur</a>
 		</div>
 	</span>
 	<span class="nav" id="navContact">
 		<a id="bigClass2">Contact</a>
-		<div id="underContact" style="height: 0px;"> <!-- Le style est fait pour être compatible avec JS -->
+		<div id="underContact" class="underNav" style="height: 0px;"> <!-- Le style est fait pour être compatible avec JS -->
 			Les Admins<br>
 			Message
 		</div>

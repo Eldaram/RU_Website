@@ -8,10 +8,19 @@
     font-style: normal;
 }
 
+	/* zilla slab utilisé comme police commune du site */
+@font-face {
+    font-family: 'zilla_slab_boldbold';
+    src: url('police/ZILLA_SLAB/zillaslab-bold-webfont.woff2') format('woff2'),
+         url('police/ZILLA_SLAB/zillaslab-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Le corps de toutes les pages du site */
 body{
 	background-image: url(images/planetdice.png);
-	/*font-family: A AJOUTER */
+	font-family: zilla_slab_boldbold;
 	background-repeat: no-repeat; /* à ajuster en fonction du back */
 	height: 100%;
 	background-attachment: fixed;
@@ -71,3 +80,31 @@ h1{
     margin-right: 15px;
 }
 	/* Toutes les définitions purement de la navigation */
+/* Définit les propriété du bloc principal de navigation */
+nav{
+	width: 60%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    left: 20%;
+}
+
+/* Sert a gérer le style des sous-blocs de la navigation */
+.nav{
+    font-size: 25px;
+    color: #473859;
+    background-color: rgb(223, 149, 100);
+    width: 150px;
+    text-align: center;
+}
+
+/* Sert a gérer le style des blocs caché de la navigation */
+.underNav{
+	position: absolute;
+    top: 29px;
+    background-color: #ce875a;
+    width: 150px;
+    text-align: center;
+    overflow: hidden;
+}
