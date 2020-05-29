@@ -7,7 +7,7 @@
 </head>
 <body>
 	<!-- PROUT SUPERSONIQUE a toi mon ami !-->
-	<!-- AJOUTER ICI LA NAVIGATION -->
+	<?php include("nav.php"); ?>
 	<article>
 		<!-- TEXTE D'EXEMPLE, a rendre modifiable par les admins par la suite ! -->
 		Voici le site internet de « Roliste Universe »,<br> 
