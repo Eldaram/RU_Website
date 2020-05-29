@@ -36,3 +36,4 @@
 		</div>
 	</span>
 </nav>
+<script src="nav.js"></script>
