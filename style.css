@@ -37,6 +37,14 @@ a{
 		Il s'agit ici de on va dire les grandes sections du site */
 article{
 	background-color: rgba(71, 56, 89, 0.75); /* une sorte de violet transparant */
+    font-family: zilla_slab_boldbold;
+    font-size: 18px;
+    color: #CEA5A9;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    padding: 10px;
 }
 
 /* TOUTES LA MISE EN PAGE POUR LA NAVIGATION, tout ce qui suit fait référence à la page "nav.php" */
