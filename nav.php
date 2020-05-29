@@ -1,3 +1,4 @@
+<a href="online/" id="loginLink">Log in</a>
 <a href="index.php" id="linkToMenu"><header><span id="title">
 	<img src="images/logo-serv.gif" id="logo" />
 	ROLISTE UNIVERSE

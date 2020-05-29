@@ -48,6 +48,19 @@ article{
 }
 
 /* TOUTES LA MISE EN PAGE POUR LA NAVIGATION, tout ce qui suit fait référence à la page "nav.php" */
+
+/* Définition du lien de login */
+#loginLink {
+	display: block; /* Utilisé pour faire fonctioner le placement absolut */
+	position: absolute;
+	right: 0px;
+    color: #CEA5A9;
+    font-size: 20px;
+    margin-left: 15px;
+    font-family: zilla_slab_boldbold;
+    padding-right: 30px;
+}
+
 	/* Toutes les options de mises en pages suivantes sont là pour le titre central des pages */
 /* Entre autre la mise en page de la nav */
 header{
