@@ -23,8 +23,8 @@
 	<span class="nav" id="navJdr">
 		<a>JDR et RP</a>
 		<div id="underJdr" class="underNav" style="height: 0px;"> <!-- Le style est fait pour être compatible avec JS -->
-			<a href="presentation.php#generale">En général</a><br>
-			<a href="presentation.php#serveur">Le serveur</a>
+			<a>En général</a><br>
+			<a>Le serveur</a>
 		</div>
 	</span>
 	<span class="nav" id="navContact">
