@@ -5,6 +5,14 @@
 var navIndex = document.getElementById('navIndex');
 var underIndex = document.getElementById('underIndex');
 var enFonctionIndex = {state : 0};
+	//pour "Jdr"
+var navJdr = document.getElementById('navJdr');
+var underJdr = document.getElementById('underJdr');
+var enFonctionJdr = {state : 0};
+	//pour "contact"
+var navContact = document.getElementById('navContact');
+var underContact = document.getElementById('underContact');
+var enFonctionContact = {state : 0};
 
 //On ecrit une fonction pour afficher le menu déroulant
 function showUnder(enFonction,under){
@@ -48,3 +56,9 @@ function hideUnder(enFonction,under){
 	//pour "index"
 navIndex.addEventListener('mouseover', function(){showUnder(enFonctionIndex,underIndex);});
 navIndex.addEventListener('mouseout',function(){hideUnder(enFonctionIndex,underIndex);});
+	//pour "Jdr"
+navJdr.addEventListener('mouseover', function(){showUnder(enFonctionJdr,underJdr);});
+navJdr.addEventListener('mouseout',function(){hideUnder(enFonctionJdr,underJdr);});
+	//pour "Contact"
+navContact.addEventListener('mouseover', function(){showUnder(enFonctionContact,underContact);});
+navContact.addEventListener('mouseout',function(){hideUnder(enFonctionContact,underContact);});
