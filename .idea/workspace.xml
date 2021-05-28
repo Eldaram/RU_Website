@@ -7,7 +7,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -128,6 +128,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -135,7 +136,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\antoi\Documents\Perso\RU_Website_Test\app\Http\Controllers" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -151,11 +158,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620941044454</updated>
-      <workItem from="1620941046564" duration="5209000" />
+      <workItem from="1620941046564" duration="16169000" />
+      <workItem from="1622133768878" duration="1603000" />
+      <workItem from="1622135978751" duration="5178000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="729" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1620995299543">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state x="729" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/78.0.1842.1080@78.0.1842.1080" timestamp="1620995299543" />
+    <state x="757" y="399" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1622148232013">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state x="757" y="399" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/78.0.1842.1080@78.0.1842.1080" timestamp="1622148232013" />
+    <state x="833" y="463" key="NewPhpFileDialog" timestamp="1620991788806">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state x="833" y="463" key="NewPhpFileDialog/78.0.1842.1080@78.0.1842.1080" timestamp="1620991788806" />
   </component>
 </project>
